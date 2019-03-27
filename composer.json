@@ -1,0 +1,17 @@
+{
+  "name": "errcode/engine",
+  "description": "The ErrCode Engine",
+  "type": "engine",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Pavel Sklyar",
+      "email": "ozpavel@yandex.ru"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "errcode/framework": ">=0.0.4",
+    "ext-mysqli": "*"
+  }
+}
