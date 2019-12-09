@@ -1,5 +1,5 @@
 {
-  "name": "errcode/engine",
+  "name": "errcode/errcode",
   "description": "The ErrCode Engine",
   "type": "engine",
   "license": "MIT",
