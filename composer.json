@@ -1,6 +1,7 @@
 {
   "name": "errcode/errcode",
-  "description": "The ErrCode Engine",
+  "description": "ErrCode basic project template",
+  "keywords": ["errcode", "framework", "basic", "project template"],
   "type": "engine",
   "license": "MIT",
   "authors": [
@@ -11,7 +12,7 @@
   ],
   "minimum-stability": "dev",
   "require": {
-    "errcode/framework": "dev-master",
+    "errcode/framework": "~v1.0.0",
     "ext-mysqli": "*"
   }
 }
