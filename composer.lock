@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b31cc281dc08c9c62e9d6e566f7a3dc5",
+    "content-hash": "8ed5fa5c07577d4e9455482d9d1ee6d2",
     "packages": [
         {
             "name": "errcode/framework",
-            "version": "dev-master",
+            "version": "1.0.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ErrCodeRussia/framework.git",
-                "reference": "aa22fdf3ea4609dc2fbf8a825fc70e9b59e6d512"
+                "reference": "634f4a3c66fb8f79813e7249d8de779a406dea52"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ErrCodeRussia/framework/zipball/aa22fdf3ea4609dc2fbf8a825fc70e9b59e6d512",
-                "reference": "aa22fdf3ea4609dc2fbf8a825fc70e9b59e6d512",
+                "url": "https://api.github.com/repos/ErrCodeRussia/framework/zipball/634f4a3c66fb8f79813e7249d8de779a406dea52",
+                "reference": "634f4a3c66fb8f79813e7249d8de779a406dea52",
                 "shasum": ""
             },
             "require": {
@@ -40,15 +40,13 @@
                 }
             ],
             "description": "The ErrCode Framework",
-            "time": "2019-12-09T19:00:17+00:00"
+            "time": "2019-12-10T06:22:52+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "errcode/framework": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
