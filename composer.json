@@ -12,7 +12,7 @@
   ],
   "minimum-stability": "dev",
   "require": {
-    "errcode/framework": "~v1.0.0",
+    "errcode/framework": "dev-master",
     "ext-mysqli": "*"
   }
 }

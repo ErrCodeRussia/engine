@@ -9,7 +9,6 @@ define('CONFIG', ROOT . 'config/');
 define('APP', ROOT . 'app/');
 define('VIEWS', ROOT . 'views/');
 define('LAYOUTS', VIEWS . 'layouts/');
-define('COMMON_LAYOUTS', LAYOUTS . 'common/');
 
 require_once VENDOR . 'autoload.php';
 
