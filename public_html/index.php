@@ -7,8 +7,6 @@
 
 require_once "../app/autoload.php";
 
-session_start();
-
 $page = new base\Page();
 $app = new base\App($page, $routing);
 

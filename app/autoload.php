@@ -5,8 +5,9 @@ use base\connector\Connector;
 define('HOME', $_SERVER['DOCUMENT_ROOT'] . '/');
 define('ROOT', HOME . '../');
 define('VENDOR', ROOT . 'vendor/');
-define('CONFIG', ROOT . 'config/');
 define('APP', ROOT . 'app/');
+define('CONFIG', ROOT . 'config/');
+define('LOGS', ROOT . 'logs/');
 define('VIEWS', ROOT . 'views/');
 define('LAYOUTS', VIEWS . 'layouts/');
 
