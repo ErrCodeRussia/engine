@@ -7,8 +7,9 @@
 
 require_once "../app/autoload.php";
 
+$app = new base\App($routing);
 $page = new base\Page();
-$app = new base\App($page, $routing);
+$app->setPage($page);
 
 $app->run();
 $page->generate();
