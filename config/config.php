@@ -11,6 +11,17 @@ return [
         'database' => ''
     ],
 
+    'styles' => [
+        'main.css',
+        'fonts.css'
+    ],
+
+    'scripts' => [
+
+    ],
+
+    'favicon' => '',
+
     'errors' => [
         404 => 'errors/404'
     ],
