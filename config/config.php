@@ -5,10 +5,12 @@ return [
     'homeUrl' => '/',
 
     'database' => [
-        'host' => 'localhost',
-        'user' => 'homestead',
-        'password' => 'secret',
-        'database' => ''
+        'default' => [
+            'host' => 'localhost',
+            'user' => 'homestead',
+            'password' => 'secret',
+            'database' => ''
+        ],
     ],
 
     'styles' => [

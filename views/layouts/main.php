@@ -33,9 +33,6 @@ $path = new base\routing\Path();
 
         <div class="content">
             <?php
-            if (!empty($page->getData()))
-                extract($page->getData());
-
             if (!empty($page->getContent()))
                 echo $page->getContent();
             ?>
