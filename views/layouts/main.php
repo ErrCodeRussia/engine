@@ -11,17 +11,17 @@ $path = new base\routing\Path();
 <html lang="ru">
 
 <head>
-    <?php echo $page->getScripts(); ?>
-    <?php include $page->getMeta(); ?>
-    <?php echo $page->getStyles(); ?>
-    <title><?= $page->getTitle(); ?></title>
+    <?php echo $page->scripts; ?>
+    <?php include $page->meta; ?>
+    <?php echo $page->styles; ?>
+    <title><?= $page->title; ?></title>
 
-    <?php if ($page->getDescription() != '') : ?>
-        <meta name="description" content="<?= $page->getDescription(); ?>">
+    <?php if ($page->description != '') : ?>
+        <meta name="description" content="<?= $page->description; ?>">
     <?php endif; ?>
 
-    <?php if ($page->getKeywords() != '') : ?>
-        <meta name="keywords" content="<?= $page->getKeywords(); ?>">
+    <?php if ($page->keywords != '') : ?>
+        <meta name="keywords" content="<?= $page->keywords; ?>">
     <?php endif; ?>
 </head>
 

@@ -1,7 +1,7 @@
 <?php
 
 
-use base\model\Table;
+use base\database\Table;
 
 class ExampleTable extends Table
 {
