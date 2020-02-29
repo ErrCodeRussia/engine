@@ -1,6 +1,9 @@
 <?php
 
 
+namespace app\database;
+
+
 use base\database\Table;
 
 class ExampleTable extends Table

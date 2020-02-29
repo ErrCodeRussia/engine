@@ -1,5 +1,7 @@
 <?php
 
+namespace app\controllers;
+
 use base\controllers\Controller;
 use base\Page;
 use base\View\View;
