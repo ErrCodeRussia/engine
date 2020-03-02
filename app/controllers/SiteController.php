@@ -2,15 +2,12 @@
 
 namespace app\controllers;
 
-use base\controllers\Controller;
+use app\base\BaseController;
 use base\Page;
 use base\View\View;
 
-class SiteController extends Controller
+class SiteController extends BaseController
 {
-    private $pageComponent;
-    private $component;
-    private $model;
 
     public function __construct(Page &$page, $params)
     {
