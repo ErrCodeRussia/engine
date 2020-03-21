@@ -93,6 +93,31 @@ class AuthComponent extends Component
     }
 
     /**
+     *  Реализация выхода авторизованного пользователя.
+     *
+     *  Если обновление БД прошло успешно, удаляется кука с auth_token, а также
+     * сбрасываются данные о пользователе в сессии.
+     *
+     *  TODO: Не забудьте обновить сбрасываемые данные, исходя из Вашей реализации
+     *  TODO: функции setSession()!
+     */
+    public function logout()
+    {
+        if ($this->usersTable->update(['auth_token' => ''], ['id' => App::$session->user->getId()])) {
+            setcookie("auth_token", '', time() - 3600, '/');
+
+            App::$session->user->auth = false;
+
+            App::$session->user->setId(null);
+            App::$session->user->setEmail(null);
+
+            return true;
+        }
+
+        return false;
+    }
+
+    /**
      *  Генерирует соль - строку с рандомным набором символов
      * для улучшения безопасности пароля.
      */
