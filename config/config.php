@@ -27,6 +27,7 @@ return [
     'favicon' => '',
 
     'errors' => [
-        404 => 'errors/404'
+        404 => 'errors/404',
+        'access' => 'errors/access'
     ],
 ];

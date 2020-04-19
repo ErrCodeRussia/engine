@@ -1,9 +1,5 @@
 <?php
 
-/**
- * @var $page base\Page;
- */
-
 $page->title = "Страница не найдена!";
 
 ?>
