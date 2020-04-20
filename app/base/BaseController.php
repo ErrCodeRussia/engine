@@ -13,7 +13,7 @@ class BaseController extends Controller
      *  Проверка токена авторизации в COOKIE.
      *
      *  TODO: Если авторизация в вашем веб-приложении происходит без помощи
-     *  TODO: COOKIE, удалите этот метод.
+     *  TODO: COOKIE, сделайте этот метод пустым.
      */
     protected function checkAuthToken()
     {

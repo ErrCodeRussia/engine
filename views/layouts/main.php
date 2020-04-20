@@ -27,9 +27,11 @@ $path = new base\routing\Path();
 
 <body>
     <div class="body">
-        <header class="header">
-            <?php include $page->getHeader(); ?>
-        </header>
+        <?php if (file_get_contents($page->getHeader())) : ?>
+            <header class="header">
+                <?php include $page->getHeader(); ?>
+            </header>
+        <?php endif; ?>
 
         <div class="content">
             <?php
@@ -38,9 +40,11 @@ $path = new base\routing\Path();
             ?>
         </div>
 
-        <footer>
-            <?php include $page->getFooter(); ?>
-        </footer>
+        <?php if (file_get_contents($page->getFooter())) : ?>
+            <footer class="footer">
+                <?php include $page->getFooter(); ?>
+            </footer>
+        <?php endif; ?>
     </div>
 </body>
 
