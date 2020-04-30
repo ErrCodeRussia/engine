@@ -30,4 +30,9 @@ return [
         404 => 'errors/404',
         'access' => 'errors/access'
     ],
+
+    'DSA' => [
+        "digest_alg" => "sha512",
+        "private_key_bits" => 4096,
+    ]
 ];
