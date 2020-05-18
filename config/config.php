@@ -52,7 +52,7 @@ return [
         'password' => '',
         /** secure => 'ssl'/'tls' */
         'secure' => '',
-        'port' => ''
+        'port' => 25
     ],
 
     'any' => [
