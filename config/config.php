@@ -10,12 +10,18 @@ return [
     'homeUrl' => '/',
     'authUrl' => '/auth/',
 
+    /**
+     * true - исключения выводятся на экран
+     * false - исключения логируются в logs/
+     */
+    'exceptions' => true,
+
     'database' => $database,
 
     /** Названия файлов стилей из public_html/css/, которые нужно подключить */
     'styles' => [
         'main.css',
-        'fonts.css'
+        'fonts.css',
     ],
 
     /** Названия скриптовых файлов из public_html/js/, которые нужно подключить */
@@ -28,11 +34,28 @@ return [
 
     'errors' => [
         404 => 'errors/404',
-        'access' => 'errors/access'
+        'access' => 'errors/access',
+    ],
+
+    'logs' => [
+        'log' => LOGS . 'log.txt',
     ],
 
     'DSA' => [
         "digest_alg" => "sha512",
         "private_key_bits" => 4096,
+    ],
+
+    'mail' => [
+        'host' => '',
+        'username' => '',
+        'password' => '',
+        /** secure => 'ssl'/'tls' */
+        'secure' => '',
+        'port' => ''
+    ],
+
+    'any' => [
+
     ]
 ];

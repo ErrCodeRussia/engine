@@ -12,7 +12,8 @@
   ],
   "minimum-stability": "dev",
   "require": {
-    "errcode/framework": "^0.6.0.1",
-    "erusev/parsedown": "~1.7.0"
+    "errcode/framework": "^0.6.2",
+    "erusev/parsedown": "~1.7.0",
+    "phpmailer/phpmailer": "~6.1"
   }
 }
