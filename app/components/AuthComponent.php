@@ -103,7 +103,7 @@ class AuthComponent extends Component
      */
     public function logout()
     {
-        if ($this->usersTable->update(['auth_token' => ''], ['id' => App::$session->user->getId()])) {
+        if (!is_array($this->usersTable->update(['auth_token' => ''], ['id' => App::$session->user->getId()]))) {
             setcookie("auth_token", '', time() - 3600, '/');
 
             App::$session->user->auth = false;
